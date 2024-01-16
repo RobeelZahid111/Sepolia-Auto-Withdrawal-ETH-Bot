@@ -5,7 +5,7 @@ const { formatEther } = require('ethers/utils');
 
 const GAS_LIMIT_DEFAULT = 21000;
 
-const provider = new ethers.WebSocketProvider('wss://thrilling-ancient-snowflake.ethereum-sepolia.quiknode.pro/92d9c26bf7617a9902be2a5bd777875c195a7eef/');
+const provider = new ethers.WebSocketProvider('YOUR INFURA ID HERE');
 
 const depositWallet = new ethers.Wallet(
   process.env.DEPOSIT_WALLET_PRIVATE_KEY,
